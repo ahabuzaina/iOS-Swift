@@ -26,7 +26,7 @@ class CardSelectionVC: UIViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(<#T##animated: Bool##Bool#>)
+        super.viewWillDisappear(animated)
         timer.invalidate()
     }
     
